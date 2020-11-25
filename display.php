@@ -33,7 +33,8 @@
                     <th> Age </th>
                     <th> Experience </th>
                     <th> Position </th>
-                    <th> Delete </th>
+                    <th> Resume No & Name  </th>
+                    <th> Delete  </th>
                     <!-- <th> Update </th> -->
 
                 </tr>
@@ -55,6 +56,7 @@
                         <td> <?php echo $res['age'];  ?> </td>
                         <td> <?php echo $res['exp'];  ?> </td>
                         <td> <?php echo $res['skill'];  ?> </td>
+                        <td> <?php echo $res['resume'];  ?> </td>
                         <td> <button class="btn-danger btn"> <a href="delete.php?id=<?php echo $res['id']; ?>" class="text-white"> Delete </a> </button> </td>
                         <!-- <td> <button class="btn-primary btn"> <a href="update.php?id=<?php echo $res['id']; ?>" class="text-white"> Update </a> </button> </td> -->
 
